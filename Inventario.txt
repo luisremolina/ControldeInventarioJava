@@ -1,4 +1,6 @@
-2;20;40000;pantalon;
-2;30;40000;pantalon;
-4;100;40000;camisa;
-6;4;130000;reloj;
+4;22;1200;toalla;
+2;2;20;gorra;
+3;11;40;agua;
+5;11;11;lo que sea;
+1;11212;20000;NuevoName;
+10;12112;11;kakak;

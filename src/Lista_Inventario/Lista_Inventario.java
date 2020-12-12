@@ -37,6 +37,17 @@ public class Lista_Inventario {
         }
 
     }
+    public void insertarcabeza(int id_producto, int cantidad, int precio, String Nombre){
+   if(Primero==null){// si la lista esta vacia
+       Primero = new NodoLista_Inventario(id_producto, cantidad, precio, Nombre);
+       ultimo=Primero;
+   }
+   else{
+       nuevo = new NodoLista_Inventario(id_producto, cantidad, precio, Nombre,Primero);
+       Primero = nuevo;
+   }despliegaLista();
+}
+    
      public void guardar_datos() {
         try {
             FileWriter escribir_archivo = new FileWriter("Inventario.txt");
